@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'sono',sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-height: 90vh;
+    background-color: rgb(1, 12, 12);
+    color: white;
+}
+h1{
+    color: rgb(4, 249, 4);
+}
+label,input,button{
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 8px;
+}
+#opScreen{
+    font-size: 30px;
+}
+button{
+    background-color: rgba(0, 255, 76, 0.6);
+    border: none;
+}
+button:hover{
+    background-color: rgba(0, 255, 76, 0.922);
+    
+}
